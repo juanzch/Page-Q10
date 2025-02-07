@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Q10 Partners</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="fixed top-0 z-50 w-full">
+      <nav
+        class="flex bg-[#eeeeeeb5] backdrop-blur-3xl text-black h-[73px] w-full justify-between items-center"
+      >
+        <a href="#"
+          ><img
+            class="ml-5 w-[70px]"
+            src="img/Logo Q10 fondo transparente.png"
+            alt="Logo Q10"
+        /></a>
+
+        <ul class="hidden lg:flex gap-[30px]">
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#partners">Partners</a></li>
+          <li><a href="#beneficios">Beneficios</a></li>
+          <li><a class="button_modal" href="#">Contacto</a></li>
+        </ul>
+        <a
+          
+          class="button_modal hidden lg:flex py-[10px] px-[15px] mr-3 rounded-xl bg-[#FF8500] text-white"
+          href=""
+          >Conviertete en Partner</a
+        >
+        <button class="lg:hidden p-2 mr-5" id="menu">
+          <img class="w-[30px]" src="img/Iconos Tabler (1).png" alt="" />
+        </button>
+      </nav>
+      <section>
+        <ul
+          class="menu hidden lg:hidden flex flex-col gap-[25px] bg-[#eeeeeeb5] backdrop-blur-3xl text-black h-[310px] w-full justify-center items-center poppins-medium"
+        >
+          <li>
+            <a class="text-xl hover:text-[#FF8500]" href="#benefits">Inicio</a>
+          </li>
+          <li>
+            <a class="text-xl hover:text-[#FF8500]" href="#cta">Partners</a>
+          </li>
+          <li>
+            <a class="text-xl hover:text-[#FF8500]" href="#cta">Beneficios</a>
+          </li>
+          <li>
+            <a class="button_modal text-xl hover:text-[#FF8500]" href="#cta">Contacto</a>
+          </li>
+          <a
+            
+            class="button_modal py-[10px] px-[15px] rounded-xl bg-[#FF8500] text-white"
+            href=""
+            >Conviertete en Partner</a
+          >
+        </ul>
+      </section>
+    </header>
+    <main class="mt-[73px] flex flex-col items-center">
+      <section
+        id="intro"
+        class="flex flex-col md:flex-row w-full max-w-[1400px] md:pt-[8rem] pb-[4rem]"
+      >
+        <div
+          class="w-full md:w-[50%] flex flex-col justify-center items-center px-10 py-[4rem]"
+        >
+          <h1
+            class="text-4xl sm:text-5xl lg:text-7xl sm:text-center md:text-start poppins-semibold mb-2"
+          >
+            Transforma la Educación
+          </h1>
+          <p class="sm:text-center md:text-start poppins-regular">
+            Únete a la red de Partners de Q10 y transforma la educación con
+            soluciones innovadoras que marcan la diferencia.
+          </p>
+        </div>
+        <div 
+          class="w-full md:w-[50%] px-3 md:pl-6 md:pr-[3.5rem] lg:p-0 flex justify-center items-center"
+        >
+          <div id="image_intro">
+            <img
+            class="w-[430px] rounded-[50px]"
+            src="img/Persona sonriendo con tablet.jpeg"
+            alt=""
+          />
+          </div>
+        </div>
+      </section>
+      <section id="beneficios" class="flex flex-col w-full justify-center">
+        <div
+          class="flex flex-col justify-center items-center pb-2 md:pt-[10rem] p-10"
+        >
+          <h1 class="text-3xl poppins-medium text-center">
+            Principales Beneficios
+          </h1>
+          <p class="text-gray-400 mt-2 text-center">
+            Al unirte al programa de Partners de Q10, obtienes los siguientes
+            beneficios:
+          </p>
+        </div>
+        <div
+          class="flex justify-center items-center lg:items-start flex-col lg:flex-row mt-4"
+        >
+          <div class="flex w-[80%] sm:w-[500px] lg:w-[340px] lg:m-2 xl:m-5">
+            <img
+              class="mt-4 w-[48px] bg-gray-200 m-2 h-[48px] rounded-xl"
+              src="img/Iconos Tabler.png"
+              alt=""
+            />
+            <div class="p-4">
+              <h2 class="text-xl poppins-medium">Impulsa a tu negocio</h2>
+              <p class="text-gray-400 mt-2">
+                Accede a herramientas exclusivas que te permitirán gestionar y
+                optimizar soluciones educativas para tus clientes,
+                diferenciándote de la competencia.
+              </p>
+            </div>
+          </div>
+
+          <div class="flex w-[80%] sm:w-[500px] lg:w-[340px] lg:m-2 xl:m-5">
+            <img
+              class="mt-4 w-[48px] bg-gray-200 m-2 h-[48px] rounded-xl"
+              src="img/Iconos Tabler.png"
+              alt=""
+            />
+            <div class="p-4">
+              <h2 class="text-xl poppins-medium">Red de Contactos</h2>
+              <p class="text-gray-400 mt-2">
+                Expande tu comunidad profesional ofreciendo a tus clientes
+                soluciones líderes en gestión educativa.
+              </p>
+            </div>
+          </div>
+          <div class="flex w-[80%] sm:w-[500px] lg:w-[340px] lg:m-2 xl:m-5">
+            <img
+              class="mt-4 w-[48px] bg-gray-200 m-2 h-[48px] rounded-xl"
+              src="img/Iconos Tabler.png"
+              alt=""
+            />
+            <div class="p-4">
+              <h2 class="text-xl poppins-medium">Visibilidad en el mercado</h2>
+              <p class="text-gray-400 mt-2">
+                Aprovecha la oportunidad de representar una plataforma
+                reconocida en el sector educativo, fortaleciendo tu reputación
+                como socio confiable y experto.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active h-[500px]">
+            <div class="flex justify-center items-center h-full">
+              <h1
+                class="text-base sm:text-xl poppins-regular xl:mx-[15rem] mx-[4.5rem] sm:mx-[8rem] sm:my-[10rem] text-center text-gray-600"
+              >
+                “Gracias a Q10 por confiar en nuestra empresa, a partir de la
+                fecha somos partner certificado de Q10 y estaremos ofreciendo a
+                nuestros clientes dicha plataforma para procesos académicos,
+                administrativos, comerciales y de educación virtual.”
+              </h1>
+            </div>
+
+            <div
+              class="carousel-caption d-none d-md-block text-black text-center mt-[100px]"
+            >
+              <img class="w-[48px] mx-auto mb-2" src="img/image.png" alt="" />
+              <p>Julian Velez, Director Comercial de SEMA SAS</p>
+            </div>
+          </div>
+          <div class="carousel-item h-[500px]">
+            <div class="flex justify-center items-center h-full">
+              <h1
+                class="text-base sm:text-xl poppins-regular xl:mx-[15rem] mx-[4.5rem] sm:mx-[8rem] sm:my-[10rem] text-center text-gray-600"
+              >
+                “Ser partners de Q10 nos permitió optimizar nuestras operaciones
+                y consolidar nuestra presencia en el sector de oficinas. La
+                colaboración nos brindó acceso a soluciones clave que impulsaron
+                nuestro crecimiento y eficiencia.”
+              </h1>
+            </div>
+
+            <div
+              class="carousel-caption d-none d-md-block text-black text-center mt-[100px]"
+            >
+              <img class="w-[48px] mx-auto mb-2" src="img/image.png" alt="" />
+              <p>Lina Torrez, Lider Comercial de OfiTech Solutions</p>
+            </div>
+          </div>
+          <div class="carousel-item h-[500px]">
+            <div class="flex justify-center items-center h-full">
+              <h1
+                class="text-base sm:text-xl poppins-regular xl:mx-[15rem] mx-[4.5rem] sm:mx-[8rem] sm:my-[10rem] text-center text-gray-600"
+              >
+                “Ser partners de Q10 nos permitió innovar y fortalecer nuestra
+                presencia en el sector educativo. La alianza nos dio acceso a
+                herramientas clave y nos ayudó a crecer significativamente.”
+              </h1>
+            </div>
+
+            <div
+              class="carousel-caption d-none d-md-block text-black text-center mt-[100px]"
+            >
+              <img class="w-[48px] mx-auto mb-2" src="img/image.png" alt="" />
+              <p>Juan Cardenas, Director Comercial de EduTech Solutions</p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span
+            class="carousel-control-prev-icon bg-gray-300 rounded-xl"
+            aria-hidden="true"
+          ></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span
+            class="carousel-control-next-icon bg-gray-300 rounded-xl"
+            aria-hidden="true"
+          ></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+
+      <section id="partners" class="flex flex-col w-full justify-center">
+        <div
+          class="flex flex-col justify-center items-center pb-2 md:pt-[10rem] p-10"
+        >
+          <h1 class="text-3xl poppins-medium text-center">Nuestros Partners</h1>
+        </div>
+        <div
+          class="flex justify-center items-center lg:items-start flex-col lg:flex-row mt-4"
+        >
+          <div
+            class=" flex flex-col justify-center items-center w-[80%] sm:w-[500px] lg:w-[340px] lg:m-2 xl:m-5"
+          >
+            <img
+              class="mt-4 w-[300px] h-[350px] bg-gray-100 m-2 rounded-xl object-contain"
+              src="img/partner1.png"
+              alt=""
+            />
+            <h2 class="mt-4 text-xl poppins-medium">Kyrios</h2>
+            <a href="https://www.linkedin.com/posts/q10software_revoluciona-la-educaci%C3%B3n-virtual-con-activity-7247254427995131905-KAJO/" class="underline text-gray-400 mt-2">Conocer más</a>
+          </div>
+
+          <div
+            class="flex flex-col justify-center items-center w-[80%] sm:w-[500px] lg:w-[340px] lg:m-2 xl:m-5"
+          >
+            <img
+              class="mt-4 w-[300px] h-[350px] bg-gray-200 m-2 rounded-xl object-contain"
+              src="img/partner2.png"
+              alt=""
+            />
+            <h2 class="mt-4 text-xl poppins-medium">AMB</h2>
+            <a href="https://www.linkedin.com/posts/ambconsultora_lleva-tu-instituci%C3%B3n-educativa-al-%C3%A9xito-activity-7276287704051462144-051t/" class="underline text-gray-400 mt-2">Conocer más</a>
+          </div>
+
+          <div
+            class="flex flex-col justify-center items-center w-[80%] sm:w-[500px] lg:w-[340px] lg:m-2 xl:m-5"
+          >
+            <img
+              class="mt-4 w-[300px] h-[350px] bg-gray-200 m-2 rounded-xl object-contain"
+              src="img/partner3.png"
+              alt=""
+            />
+            <h2 class="mt-4 text-xl poppins-medium">SEMA</h2>
+            <a href="https://www.linkedin.com/posts/sema-sas_gracias-a-q10-por-confiar-en-nuestra-empresa-activity-7230430412399935488-IXPx/" class="underline text-gray-400 mt-2">Conocer más</a>
+          </div>
+
+        </div>
+      </section>
+
+      <section class="w-full">
+        <div
+          class="flex flex-col justify-center items-center pb-[5rem] pt-[2rem] md:pt-[10rem] px-10"
+        >
+          <h1 class="text-3xl poppins-medium text-center">
+            ¿Listo para ser nuestro próximo Partner?
+          </h1>
+          <p class="text-gray-400 mt-2 text-center">
+            Únete hoy y descubre cómo puedes impulsar tu crecimiento con Q10
+          </p>
+          <button
+            
+            class="button_modal m-2 mt-4 sm:m-5 py-[10px] px-[15px] rounded-xl bg-[#FF8500] text-white text-center"
+          >
+            ¡Hazte Partner Ahora!
+          </button>
+        </div>
+      </section>
+      <section class="modal1">
+        <div
+          class="min-h-[640px] modal1_container m-auto w-[90%] bg-white max-w-[600px] max-h-[90%] rounded-md p-[2em] grid gap-4 place-items-center [grid-auto-columns:100%]"
+        >
+          <div class="w-full flex flex-col items-center sm:mb-5">
+            <img
+              class="modal1_img w-[100px]"
+              src="img/Logo Q10 fondo transparente.png"
+              alt=""
+            />
+            <h2 class="text-2xl sm:text-4xl poppins-medium">Contactanos</h2>
+            <p class="text-gray-400 text-center">
+              Complete este formulario para contactarnos.
+            </p>
+          </div>
+
+          <form
+            class="flex flex-col w-full gap-2"
+            onsubmit="enviarWhatsApp(event)"
+          >
+            <label for="name">Nombre</label>
+            <input
+              class="border-1 p-2 rounded-md"
+              type="text"
+              id="name"
+              required
+            />
+            <label for="email">Email</label>
+            <input class="border-1 p-2 rounded-md" type="email" id="email" />
+            <label for="mensaje">Mensaje</label>
+            <textarea
+              class="border-1 p-2 rounded-md"
+              id="mensaje"
+              rows="4"
+            ></textarea>
+            <div class="flex justify-center items-center sm:mt-6">
+              <button
+                type="submit"
+                class="text-white px-4 py-2 sm:pr-8 bg-orange-500 border border-gray-300 rounded-lg inline-block font-light transition-colors duration-300 hover:bg-orange-400 mr-[3rem]"
+              >
+                Enviar
+              </button>
+              <a href="#" class="modal1_close">Cancelar</a>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="p-4 md:p-8 lg:p-10 relative bg-[#fff4e8]">
+      <div
+        class="mx-auto max-w-full text-center flex flex-col md:flex-row gap-2 justify-between items-center"
+      >
+        <div
+          class="flex flex-col md:flex-row gap-2 items-center md:justify-start"
+        >
+          <a href="/" class="inline-block">
+            <img
+              src="img/Logo Q10 fondo transparente.png"
+              alt="Tu Destino"
+              class="h-8"
+            />
+          </a>
+          <p class="text-stop-red sm:text-center text-[#FF8500]">
+            © 2025 Q10 All rights reserved.
+          </p>
+        </div>
+        <ul class="flex flex-wrap justify-center items-center text-[#FF8500]">
+          <li>
+            <a href="#" class="mr-4 hover:underline md:mr-6 transition">
+              Inicio
+            </a>
+          </li>
+          <li>
+            <a href="#partners" class="mr-4 hover:underline md:mr-6 transition">
+              Partners
+            </a>
+          </li>
+          <li>
+            <a
+              href="#beneficios"
+              class="mr-4 hover:underline md:mr-6 transition"
+            >
+              Beneficios
+            </a>
+          </li>
+          <li>
+            <a
+              href="#"
+              
+              class="button_modal mr-4 hover:underline md:mr-6 transition"
+            >
+              Contacto
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.2/dist/umd/popper.min.js"
+      integrity="sha384-q9CRHqZndzlxGLOj+xrdLDJa9ittGte1NksRmgJKeCV9DrM7Kz868XYqsKWPpAmn"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
